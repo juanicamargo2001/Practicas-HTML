@@ -1,0 +1,114 @@
+<!-- Un poco de repaso de todo lo que me acuerdo de html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi primera Web</title>
+    <style>
+        table, th, td {
+            border: 1px, solid, black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Precio</th>
+                <th>Producto</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2500</td>
+                <td>Papa</td>
+            </tr>
+            <tr>
+                <td>1500</td>
+                <td>Tomate</td>
+            </tr>
+            <tr>
+                <td>600</td>
+                <td>HUevo</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>100000</td>
+            <td>Total</td>
+        </tfoot>
+    </table>
+
+
+
+    <!-- ul es lista no ordenada -->
+    <ul>
+        <li>elemento 1</li>
+        <li>elemento 2</li>
+        <li>elemento 3</li>
+        <li>elemento 4</li>
+    </ul>
+
+    <!-- Ol es lista ordenada -->
+    <ol>
+        <li value="50">elemento 1</li>
+        <li>elemento 2</li>
+        <li>elemento 3</li>
+        <li>elemento 4</li>
+        <ol>
+            <li style="list-style: lower-alpha;">elemento 1</li>
+            <li style="list-style: lower-alpha;">elemento 2</li>
+            <li style="list-style: lower-alpha;">elemento 3</li>
+            <li style="list-style: lower-alpha;">elemento 4</li>
+        </ol>
+    </ol>
+    
+
+
+
+
+
+    <form action="/formulario" method="get">
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre" name="nombre" placeholder="Chanchito feliz"/>
+        <br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Chanchito Triste"/>
+        <br>
+        <label for="comentario">Comentarios: </label>
+        <textarea rows="10" cols="50" name="comentario" id="comentario" placeholder="Ingrese comentario..."></textarea>
+        <br>
+        <button type="button">Tipo Boton</button>
+        <button type="reset">Tipo reset</button>
+        <button type="submit">Tipo submit</button>
+
+    </form>
+
+    <h1>Mi Primer Heading</h1>
+    <h2>Mi Segundo Heading</h2>
+    <h3>Mi Tercer Heading</h3>
+    <h4>Mi Cuarto Heading</h4>
+    <h5>Mi Quinto Heading</h5>
+    <h6>Chanchito Feliz</h6>
+    <p>Chanchito feliz esta muy feliz</p>
+    <p>Chanchito Triste esta muy triste </p>
+    <hr>
+    <h2>A chanchito Felipe</h2>
+    <p>Lorem ipsum dolor <br> 
+        sit, <span style="color: aqua;">amet consectetur adipisicing elit.</span> 
+        Beatae aspernatur obcaecati tempora. Unde harum impedit fugiat. Illum 
+        in modi, eius officia itaque quis, facere soluta id dolorem aut, laborum 
+        impedit!
+    </p>
+    <!-- Esto es un comentatio y no va a
+    aparecer en el explorador -->
+    <a target="_blank" href="https://www.google.com">Ir a google</a>
+    <br>
+    <img src="img/fotoPerfil.jpg" height="400">
+
+    <form>
+        <input />
+    </form>    
+
+
+
+</body>
+</html>
